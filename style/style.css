@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+
+/* ==Header=== */
+header  .header_top{
+    padding: 18px 0;
+    width: 100%;
+}
+
+
+header  .header_top .nav .nav-item .active{
+    color: #007d2f !important;
+}
+header  .header_top .nav .nav-item .nav-link{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+}
+section{
+    background: #007d2f;
+}
+section .designer h2{
+    margin: 100px 0 25px 0;
+    font-size: 30px;
+    color: #191919;
+    font-weight: 400;
+}
+section .designer p{
+    margin-bottom: 80px;
+    color: #fefefe;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+main .item_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+main .item_img:hover .item_hover{
+    transform: scale(1);
+}
+main .item_img img{
+    width: 100%;
+    height: 100%;
+}
+main .item_img  .item_hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    background:rgba(0, 255, 13, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(2000px);
+    transform: scale(0);
+    transition: 500ms;
+}
+main .item_img  .item_hover .fa{
+    color: white;
+    font-size: 55px;
+}
+footer .footer{
+    padding: 95px 0 ;
+    background: #141414;
+}
+footer .footer .footer_left h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 18px;
+
+
+}
+footer .footer .footer_left p{
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+}
+footer .footer .footer_center a{
+    text-decoration: none;
+    color: #bcbcbc;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-weight:400 ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer .footer .right ul{
+   
+    list-style: none;
+
+}
+footer .footer .right ul a{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}

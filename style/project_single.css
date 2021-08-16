@@ -1,0 +1,51 @@
+/* project */
+.project{
+    background: #f6f6f6;
+}
+.project .light_break{
+    max-width: 450px;
+    margin: auto;
+}
+.project .light_break h2{
+    font-size: 38px;
+    font-weight: 500;
+    color: #171717;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 22px;
+}
+.project .light_break p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #787878;
+    line-height: 25px;
+}
+.project .light_break .client p{
+    margin-bottom: 10px;
+}
+.project .light_break .client p span{
+    color: #171717;
+    font-weight: 700 !important;
+    margin-right: 10px;
+}
+.project .light_break .client p a{
+    color: #787878;
+    text-decoration: none;
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.carusel_btn{
+    width: 100%;
+    height: 100px;
+    background:#007d2f;
+    position: relative;
+}
+.carusel_btn a .fa{
+    display: block;
+    position: absolute;
+    top:40px;
+    color: white;
+    font-size: 20px;
+}
+
